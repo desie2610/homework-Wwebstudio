@@ -1,0 +1,148 @@
+:root{
+    --background-color: #2F303A;
+    --accent-color: #2196F3;
+    --tin-background: #F5F4FA;
+    --logo-color:#000;
+    --text-color:#212121;
+    --add-text:#757575;
+    --title-color:#FFF;
+    --footer-number:rgba(255, 255, 255, 0.60);
+    }
+    body {
+        font-family: "Roboto";
+       };
+    
+    .header-logo {
+        color: var(--logo-color);
+    font-family: "Raleway";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+    }
+    .logo-color {
+        color:var(--accent-color);
+        font-family: "Raleway";
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.38;
+        letter-spacing: 0.78px;
+        }
+    .nav-link {
+        color: var(--text-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+    }
+    .header-link {
+        color: var(--add-text);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.28px;
+    }
+    .hero {
+        background-color: var(--background-color);
+    }
+    .hero-title {
+        color: var(--title-color);
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    }
+    .hero-btn {
+        color: var(--title-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+    background-color: var(--accent-color);
+    }
+    .benefits-title {
+        color: var(--text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    }
+    .benefits-text {
+        color: var(--add-text);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    }
+    .work-title {
+        color: var(--text-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+    }
+    .team {
+        background-color: var(--tin-background);
+    }
+    .team-title {
+        color: var(--text-color);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 1.08px;
+    }
+    .team-name {
+        color: var(--text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
+    }
+    .team-text {
+        color: var(--add-text);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.48px;
+    }
+    .footer {
+        background-color: var(--background-color);
+    }
+    .footer-color {
+        color: var(--accent-color);
+        font-family: Raleway;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 1.38;
+        letter-spacing: 0.78px;   
+    }
+    .footer-logo {
+        color: var(--title-color);
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.38;
+    letter-spacing: 0.78px;
+    }
+    .footer-addres {
+        color: var(--title-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    }
+    .footer-link {
+        color: var(--footer-number);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    }
