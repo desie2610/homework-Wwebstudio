@@ -60,8 +60,13 @@ body {
     letter-spacing: 0.28px;
 }
 
+.header {
+    padding: 25px;
+}
+
 .hero {
     background-color: var(--background-color);
+    padding: 200px;
 }
 
 .hero-title {
@@ -84,6 +89,10 @@ body {
     background-color: var(--accent-color);
 }
 
+.benefits {
+    padding: 94px;
+}
+
 .benefits-title {
     color: var(--text-color);
     font-size: 14px;
@@ -101,6 +110,11 @@ body {
     letter-spacing: 0.42px;
 }
 
+.work {
+    padding: 118px;
+}
+
+
 .work-title {
     color: var(--text-color);
     text-align: center;
@@ -112,6 +126,7 @@ body {
 
 .team {
     background-color: var(--tin-background);
+    padding: 188px;
 }
 
 .team-title {
@@ -143,6 +158,7 @@ body {
 
 .footer {
     background-color: var(--background-color);
+    padding: 124px;
 }
 
 .footer-color {
@@ -177,4 +193,9 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+}
+.container {
+    width: 1200;
+    padding-left: 15px;
+    padding-right: 15px;
 }
