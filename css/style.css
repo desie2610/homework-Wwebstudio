@@ -8,7 +8,20 @@
     --title-color: #FFF;
     --footer-number: rgba(255, 255, 255, 0.60);
 }
-
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+h1,h2,h3,h4,p {
+    margin: 0;
+}
 body {
     font-family: "Roboto";
 }
