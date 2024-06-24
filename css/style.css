@@ -195,7 +195,10 @@ body {
     letter-spacing: 0.42px;
 }
 .container {
-    width: 1200;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid red;
 }
