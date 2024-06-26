@@ -22,6 +22,15 @@ img {
 h1,h2,h3,h4,p {
     margin: 0;
 }
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
     font-family: "Roboto";
 }
@@ -44,6 +53,7 @@ body {
     letter-spacing: 0.78px;
 }
 
+
 .nav-link {
     color: var(--text-color);
     font-size: 14px;
@@ -60,8 +70,13 @@ body {
     letter-spacing: 0.28px;
 }
 
+.header-list {
+    display: flex;
+    gap: 50px;
+}
+
 .header {
-    padding: 25px;
+    padding: 15px;
 }
 
 .hero {
@@ -193,12 +208,4 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
-}
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: solid red;
 }
