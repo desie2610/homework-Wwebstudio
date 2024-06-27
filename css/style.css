@@ -62,6 +62,11 @@ body {
     letter-spacing: 0.28px;
 }
 
+.nav-list {
+    display: flex;
+    gap: 50px;
+}
+
 .header-link {
     color: var(--add-text);
     font-size: 14px;
@@ -70,18 +75,27 @@ body {
     letter-spacing: 0.28px;
 }
 
+.header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-box {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+
 .header-list {
     display: flex;
     gap: 50px;
-}
-
-.header {
-    padding: 15px;
+    padding-left: 285px;
 }
 
 .hero {
     background-color: var(--background-color);
-    padding: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
@@ -94,6 +108,11 @@ body {
     text-transform: uppercase;
 }
 
+.hero-box {
+    display: flex;
+    align-items: center;
+}
+
 .hero-btn {
     color: var(--title-color);
     text-align: center;
@@ -102,10 +121,18 @@ body {
     line-height: 1.87;
     letter-spacing: 0.96px;
     background-color: var(--accent-color);
+    display: flex;
+    justify-content: center;
 }
 
 .benefits {
-    padding: 94px;
+    margin-top: 94px;
+    margin-bottom: 118px;
+}
+
+.benefits-list {
+    display: flex;
+    gap: 30px;
 }
 
 .benefits-title {
@@ -125,10 +152,11 @@ body {
     letter-spacing: 0.42px;
 }
 
-.work {
-    padding: 118px;
+.work-list {
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
 }
-
 
 .work-title {
     color: var(--text-color);
@@ -141,7 +169,19 @@ body {
 
 .team {
     background-color: var(--tin-background);
-    padding: 188px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.team-img {
+    width: 270px;
+    padding-bottom: 30px;
 }
 
 .team-title {
@@ -162,6 +202,7 @@ body {
     letter-spacing: 0.48px;
 }
 
+
 .team-text {
     color: var(--add-text);
     text-align: center;
@@ -169,11 +210,12 @@ body {
     font-weight: 400;
     line-height: 1.18;
     letter-spacing: 0.48px;
+    padding-top: 10px;
 }
 
 .footer {
     background-color: var(--background-color);
-    padding: 124px;
+    margin-top: 50px;
 }
 
 .footer-color {
@@ -192,6 +234,7 @@ body {
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
+    padding-bottom: 20px;
 }
 
 .footer-addres {
@@ -200,6 +243,7 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+    padding-bottom: 9px;
 }
 
 .footer-link {
@@ -209,3 +253,29 @@ body {
     line-height: 1.71;
     letter-spacing: 0.42px;
 }
+
+/* portfolio */
+
+.list-hero {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+
+.list-photo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+ 
+.photo-title {
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+.photo-text {
+    margin-bottom: 114px;
+}
+
