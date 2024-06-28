@@ -76,8 +76,8 @@ body {
 }
 
 .header {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-box {
@@ -126,13 +126,12 @@ body {
 }
 
 .benefits {
-    margin-top: 94px;
-    margin-bottom: 118px;
+    padding-top: 94px;
 }
 
 .benefits-list {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .benefits-title {
@@ -152,6 +151,10 @@ body {
     letter-spacing: 0.42px;
 }
 
+.work {
+    padding-top: 118px;
+}
+
 .work-list {
     display: flex;
     gap: 30px;
@@ -169,8 +172,7 @@ body {
 
 .team {
     background-color: var(--tin-background);
-    margin-top: 94px;
-    margin-bottom: 94px;
+    margin-top: 188px;
 }
 
 .team-list {
@@ -191,6 +193,7 @@ body {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
+    padding-top: 94px;
 }
 
 .team-name {
