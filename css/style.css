@@ -218,7 +218,7 @@ body {
 
 .footer {
     background-color: var(--background-color);
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .footer-color {
@@ -263,8 +263,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-top: 94px;
-    margin-bottom: 50px;
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .list-photo {
@@ -279,6 +279,6 @@ body {
 }
 
 .photo-text {
-    margin-bottom: 114px;
+    padding-bottom: 114px;
 }
 
