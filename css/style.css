@@ -152,7 +152,8 @@ body {
 }
 
 .work {
-    padding-top: 118px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .work-list {
@@ -172,7 +173,8 @@ body {
 
 .team {
     background-color: var(--tin-background);
-    margin-top: 188px;
+    padding-top: 94px;
+    padding-bottom: 94px;  
 }
 
 .team-list {
@@ -218,7 +220,8 @@ body {
 
 .footer {
     background-color: var(--background-color);
-    padding-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-color {
