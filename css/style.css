@@ -173,7 +173,6 @@ body {
 
 .team {
     background-color: var(--tin-background);
-    padding-top: 94px;
     padding-bottom: 94px;  
 }
 
@@ -185,7 +184,7 @@ body {
 
 .team-img {
     width: 270px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .team-title {
@@ -195,7 +194,7 @@ body {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
-    padding-top: 94px;
+    margin-top: 94px;
 }
 
 .team-name {
@@ -215,7 +214,7 @@ body {
     font-weight: 400;
     line-height: 1.18;
     letter-spacing: 0.48px;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 .footer {
@@ -240,7 +239,7 @@ body {
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-addres {
@@ -249,7 +248,7 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-link {
@@ -277,11 +276,14 @@ body {
 }
  
 .photo-title {
-    padding-top: 20px;
-    padding-bottom: 4px;
+    margin-top: 20px;
 }
 
 .photo-text {
-    padding-bottom: 114px;
+    margin-top: 4px;
+}
+
+.photo-text {
+    margin-bottom: 114px;
 }
 
