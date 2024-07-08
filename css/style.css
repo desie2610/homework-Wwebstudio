@@ -195,13 +195,14 @@ body {
 
 .team-img {
     width: 270px;
-    margin-top: 50px;
 }
 
 .div-box {
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: var(--tin-background);
 }
+
 
 .team-title {
     color: var(--text-color);
@@ -210,6 +211,7 @@ body {
     font-weight: 700;
     line-height: 1.16;
     letter-spacing: 1.08px;
+    margin-bottom: 50px;
 }
 
 .team-name {
@@ -264,7 +266,6 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
-    margin-bottom: 9px;
 }
 
 .footer-link {
@@ -273,6 +274,10 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+    margin-top: 20px;
+}
+
+.footer-list {
     margin-top: 9px;
 }
 
