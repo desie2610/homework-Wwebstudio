@@ -326,8 +326,7 @@ body {
     flex-wrap: wrap;
     gap: 30px;
     padding-bottom: 30px;
-    padding-left: auto;
-    padding-right: auto;
+    justify-content: center;
 }
  
 .photo-title {
