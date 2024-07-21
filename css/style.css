@@ -129,10 +129,10 @@ body {
     line-height: 1.87;
     letter-spacing: 0.96px;
     background-color: var(--tin-background);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
     border: none;
 }
 .hero-btn:hover {
@@ -147,10 +147,10 @@ body {
     line-height: 1.87;
     letter-spacing: 0.96px;
     background-color: var(--accent-color);
-    padding-top: 6;
-    padding-bottom: 6px;
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 1-px;
+    padding-left: 32px;
+    padding-right: 32px;
     border: none;
 }
 
@@ -308,6 +308,7 @@ body {
 
 .hero-portfolio {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .list-hero {
