@@ -122,6 +122,23 @@ body {
 }
 
 .hero-btn {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.96px;
+    background-color: var(--tin-background);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: none;
+}
+.hero-btn:hover {
+    background-color: var(--accent-color);
+}
+.hero-btn-box {
     color: var(--title-color);
     text-align: center;
     font-size: 16px;
@@ -133,6 +150,7 @@ body {
     padding-bottom: 10px;
     padding-left: 32px;
     padding-right: 32px;
+    border: none;
 }
 
 .benefits {
@@ -183,7 +201,7 @@ body {
 }
 
 .team {
-    background-color: var(--tin-background);
+    background-color: var();
     padding-bottom: 94px;  
     padding-top: 94px;
 }
@@ -256,7 +274,7 @@ body {
     font-weight: 700;
     line-height: 1.38;
     letter-spacing: 0.78px;
-    margin-bottom: 20px;
+    display: block;
     margin-bottom: 20px;
 }
 
@@ -266,6 +284,8 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+    display: block;
+    margin-bottom: 9px;
 }
 
 .footer-link {
@@ -274,12 +294,11 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
-    margin-top: 20px;
+    display:block;
+    margin-bottom: 9px;
 }
 
-.footer-list {
-    margin-top: 9px;
-}
+
 
 /* portfolio */
 
@@ -291,21 +310,38 @@ body {
     padding-bottom: 50px;
 }
 
+.photo-item {
+    border: 1px solid #EEE;
+}
+
 .list-photo {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    padding-bottom: 30px;
 }
  
 .photo-title {
-    margin-top: 20px;
+    color: var(--text-color);
+font-size: 18px;
+font-weight: 700;
+line-height: 36px; /* 200% */
+letter-spacing: 1.08px;
+margin-top: 20px;
+margin-bottom: 4px;
+margin-left: 24px;
+ margin-right: 24px;
 }
 
 .photo-text {
-    margin-top: 4px;
+    color: var(--add-text);
+font-size: 16px;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.48px;
+margin-left: 24px;
+margin-right: 24px;
 }
 
-.photo-text {
-    margin-bottom: 114px;
-}
+
 
