@@ -154,6 +154,23 @@ body {
     border: none;
 }
 
+
+
+.new-img-list {
+    display: flex;
+}
+
+.new-img-item {
+    background-color: var(--tin-background);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 270px;
+    height: 120px;
+    gap: 30px;
+}
+
 .benefits {
     padding-top: 94px;
 }
