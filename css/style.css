@@ -335,16 +335,21 @@ body {
     margin-bottom: 50px;
 }
 
-.photo-item {
-    border: 1px solid #EEE;
-}
+
 
 .list-photo {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    padding-bottom: 30px;
-    justify-content: center;
+}
+
+.photo-item {
+    /* border: 1px solid #EEE; */
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.photo-img {
+    width: 100%;
 }
  
 .photo-title {
@@ -369,6 +374,8 @@ letter-spacing: 0.48px;
     padding-bottom: 20px;
     padding-right: 24px;
     padding-left: 24px;
+    border: 1px solid #EEE;
+    border-top: none;
 }
 
 
