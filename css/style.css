@@ -343,7 +343,7 @@ body {
 }
 
 .photo-item {
-      border: 1px solid #EEE;  
+      /* border: 1px solid #EEE;   */
     flex-basis: calc((100% - 60px) / 3);
 }
 
