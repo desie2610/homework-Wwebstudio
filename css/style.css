@@ -113,6 +113,10 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+    background-image: linear-gradient( rgba(47, 48, 58, 0.40),rgba(47, 48, 58, 0.40)), url(../img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -148,10 +152,12 @@ body {
     padding-right: 22px;
     border-radius: 4px;
     border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .hero-btn:hover {
     background-color: var(--accent-color);
     color: var(--title-color);
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 .hero-btn-box {
     color: var(--title-color);
@@ -194,6 +200,32 @@ body {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
+}
+
+.benefits-item::before {
+    content: "";
+    border-radius: 4px;
+    background: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    background-image: url(../img/antenna.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.benefits-item:nth-child(2)::before {
+    background-image: url(../img/clock.png);
+}
+
+.benefits-item:nth-child(3)::before {
+    background-image: url(../img/diagram.png);
+}
+
+.benefits-item:nth-child(4)::before {
+    background-image: url(../img/astronaut.png);
 }
 
 .work {
@@ -255,6 +287,11 @@ body {
     font-weight: 500;
     line-height: 1.18;
     letter-spacing: 0.48px;
+}
+
+.team-item {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .footer-item {
@@ -346,6 +383,10 @@ body {
 .photo-item {
       /* border: 1px solid #EEE;   */
     flex-basis: calc((100% - 60px) / 3);
+}
+
+.photo-item:hover {
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
 .photo-img {
