@@ -305,6 +305,7 @@ body {
     letter-spacing: 0.42px;
     display: block;
     margin-bottom: 9px;
+    font-style: normal;
 }
 
 .footer-link {
