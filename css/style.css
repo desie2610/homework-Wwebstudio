@@ -381,13 +381,16 @@ body {
     gap: 30px;
 }
 
-.photo-item {
-      /* border: 1px solid #EEE;   */
+.photo-item {  
     flex-basis: calc((100% - 60px) / 3);
 }
 
 .photo-item:hover {
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+} 
+
+.photo-img {
+    width: 100%;
 }
 
 
@@ -414,7 +417,7 @@ letter-spacing: 0.48px;
     padding-bottom: 20px;
     padding-right: 24px;
     padding-left: 24px;
-    border: 1px solid #EEE;
+     border: 1px solid #EEE; 
     border-top: none;
 }
 .nav-link-p {
