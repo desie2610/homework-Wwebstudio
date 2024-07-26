@@ -152,7 +152,6 @@ body {
     padding-right: 22px;
     border-radius: 4px;
     border: none;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .hero-btn:hover {
     background-color: var(--accent-color);
@@ -173,6 +172,7 @@ body {
     padding-right: 32px;
     border-radius: 4px;
     border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .benefits {
@@ -267,6 +267,7 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: var(--title-color);
+    border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -289,8 +290,8 @@ body {
     letter-spacing: 0.48px;
 }
 
+
 .team-item {
-    border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -389,9 +390,7 @@ body {
     box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
-.photo-img {
- width: 100%;  
-}
+
  
 .photo-title {
     color: var(--text-color);
