@@ -258,6 +258,15 @@ body {
     width: 270px;
 }
 
+.team-list-svg {
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+    gap: 34px;
+}
+
+
+
 .div-box {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -288,6 +297,7 @@ body {
 .team-svg {
     width: 20px;
     height: 20px;
+    fill: #AFB1B8;
 }
 
 
@@ -327,6 +337,11 @@ letter-spacing: 1.08px;
 padding-bottom: 50px;
 }
 
+.clients-list{
+    display: flex;
+    gap: 30px;
+}
+
 .clients-svg {
     width: 106px;
     height: 60px;
@@ -334,9 +349,16 @@ padding-bottom: 50px;
     padding-bottom: 16px;
     padding-left: 32px;
     padding-right: 32px;
-    border: 1px solid #AFB1B8;;
+    border: 1px solid #AFB1B8;
     border-radius: 4px;
+    fill: #AFB1B8;
 }
+
+.clients-svg:hover {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
 .footer {
     background-color: var(--background-color);
     padding-top: 60px;
