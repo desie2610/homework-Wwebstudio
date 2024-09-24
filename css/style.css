@@ -108,6 +108,16 @@ body {
     margin-left: auto;
 }
 
+.header-svg {
+    width: 16px;
+    height: 12px;
+    gap: 10px;
+}
+
+.header-svg:hover {
+    fill: var(--accent-color);
+}
+
 .hero {
     background-color: var(--background-color);
     padding-top: 200px;
@@ -275,6 +285,12 @@ body {
     letter-spacing: 0.48px;
 }
 
+.team-svg {
+    width: 20px;
+    height: 20px;
+}
+
+
 
 .team-item {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -295,6 +311,32 @@ body {
     margin-top: 10px;
 }
 
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-title {
+    color: #212121;
+text-align: center;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+padding-bottom: 50px;
+}
+
+.clients-svg {
+    width: 106px;
+    height: 60px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid #AFB1B8;;
+    border-radius: 4px;
+}
 .footer {
     background-color: var(--background-color);
     padding-top: 60px;
