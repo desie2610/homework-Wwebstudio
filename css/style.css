@@ -81,6 +81,9 @@ body {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.28px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .header-link:hover {
@@ -112,6 +115,12 @@ body {
     width: 16px;
     height: 12px;
     gap: 10px;
+    fill: var(--add-text);
+}
+
+.header-item:nth-child(2) .header-svg {
+width: 10px;
+height: 16px;
 }
 
 .header-svg:hover {
