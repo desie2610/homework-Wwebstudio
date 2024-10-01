@@ -271,7 +271,7 @@ height: 16px;
     display: flex;
     justify-content: center;
     padding-top: 28px;
-    gap: 34px;
+    gap: 10px;
 }
 
 
@@ -304,9 +304,28 @@ height: 16px;
 }
 
 .team-svg {
-    width: 20px;
+    width: 20px;   
     height: 20px;
     fill: #AFB1B8;
+}
+
+.team-link {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.team-link:hover,
+.team-link:focus {
+     /* border: 0px;  */
+    border: 0px solid var(--accent-color);
+    background-color: var(--accent-color); 
+    .team-svg {
+        fill: var(--title-color);
+    }  
 }
 
 
@@ -415,7 +434,32 @@ padding-bottom: 50px;
     font-style: normal;
 }
 
+.footer-text {
+    color: var(--title-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
 
+.footer-svg {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-link-svg {
+    
+   fill: var(--title-color);
+   background-color: rgba(255, 255, 255, 0.10);
+   border-radius: 50%;
+}
+
+.footer-link-svg:hover {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+}
 
 /* portfolio */
 
