@@ -542,5 +542,53 @@ letter-spacing: 0.48px;
     color: var(--accent-color);
 }
 
+/* ===========модальне вікно============= */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 528px;
+height: 581px;
+background-color: #fff;
+padding: 40px;
+}
+
+.modal-title {
+    color: #212121;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+margin-bottom: 12px;
+}
+
+.modal-signa {
+    color: #757575;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+}
+
+.modal-input {
+    width: 448px;
+height: 40px;
+display: block;
+margin-top: 4px;
+border-radius: 4px;
+}
 
 
