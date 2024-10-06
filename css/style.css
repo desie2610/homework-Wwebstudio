@@ -94,9 +94,11 @@ body {
     gap: 10px;
 }
 
-.header-link:hover {
-    color: var(--accent-color);
-}
+.header-link:hover{
+    color:var(--accent-color);
+    .header-svg{
+    fill:var(--accent-color);}
+    }
 
 .header {
     padding-top: 24px;
@@ -129,10 +131,6 @@ body {
 .header-item:nth-child(2) .header-svg {
     width: 10px;
     height: 16px;
-}
-
-.header-svg:hover {
-    fill: var(--accent-color);
 }
 
 .hero {
@@ -431,10 +429,9 @@ body {
     padding-bottom: 60px;
 }
 
-.box {
+.footer-box {
     display: flex;
 }
-
 
 .footer-color {
     color: var(--accent-color);
@@ -487,6 +484,7 @@ body {
     line-height: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .footer-list-svg {
