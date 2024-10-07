@@ -19,6 +19,9 @@ a {
     text-decoration: none;
 }
 
+
+    
+
 img {
     display: block;
 }
@@ -70,6 +73,10 @@ body {
     letter-spacing: 0.28px;
 }
 
+.nav-link:focus {
+color: var(--accent-color);
+}
+
 .nav-link-s {
     color: var(--accent-color);
 }
@@ -99,6 +106,12 @@ body {
     .header-svg{
     fill:var(--accent-color);}
     }
+
+    .header-link:focus{
+        color:var(--accent-color);
+        .header-svg{
+        fill:var(--accent-color);}
+        }
 
 .header {
     padding-top: 24px;
@@ -132,6 +145,7 @@ body {
     width: 10px;
     height: 16px;
 }
+
 
 .hero {
     background-color: var(--background-color);
@@ -305,7 +319,7 @@ body {
 .team-list-svg {
     display: flex;
     justify-content: center;
-    padding-top: 28px;
+    margin-top: : 16px;
     gap: 10px;
 }
 
@@ -398,12 +412,12 @@ body {
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .clients-list {
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .clients-svg {
@@ -423,15 +437,25 @@ body {
     border: 1px solid var(--accent-color);
 }
 
+.clients-link:focus{
+    .clients-svg{
+    fill:var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+    }
+
 .footer {
     background-color: var(--background-color);
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
-.footer-box {
+ .footer-box { 
     display: flex;
+    align-items: baseline;
 }
+
+
 
 .footer-color {
     color: var(--accent-color);
@@ -481,7 +505,7 @@ body {
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    line-eight: normal;
     letter-spacing: 0.42px;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -489,6 +513,7 @@ body {
 
 .footer-list-svg {
     display: flex;
+    gap: 10px;
 }
 
 .footer-svg {
