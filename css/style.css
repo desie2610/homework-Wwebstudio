@@ -317,7 +317,7 @@ color: var(--accent-color);
 .team-list-svg {
     display: flex;
     justify-content: center;
-    margin-top: : 16px;
+    margin-top: 16px;
     gap: 10px;
 }
 
@@ -645,11 +645,16 @@ fill: #FFF;
 
 .card-wrap {
     position: relative;
+    width: 100%;
+    height: 294px;
+}
+
+.photo-img {
+    width: 100%;
 }
 
 .card-desk {
-    width: 100%;
-    height: 100%;
+    padding: 63px 24px;
     background-color: var(--accent-color);
     color: #FFF;
 font-size: 18px;
@@ -660,14 +665,7 @@ letter-spacing: 0.54px;
 position: absolute;
  top: 0;
  left: 0;
- padding: 63px 24px;
 }
-
-.photo-img {
-    width: 100%;
-}
-
-
 
 .photo-title {
     color: var(--text-color);
