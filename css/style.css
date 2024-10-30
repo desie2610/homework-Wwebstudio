@@ -761,12 +761,8 @@ padding-left: 50px;
 padding-right: 30px;
 }
 
-
-
-
-
 .modal-com {
-    width: 448px;
+width: 448px;
 height: 120px;
 border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
@@ -858,8 +854,8 @@ background-color: var(--accent-color);
 }
 
 .btn-close {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display: flex;
     align-items: center;
