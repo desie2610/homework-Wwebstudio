@@ -641,6 +641,9 @@ fill: #FFF;
 
 .photo-item:hover {
     box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+    .card-desk {
+        opacity: 1;
+    }
 }
 
 .card-wrap {
@@ -654,8 +657,8 @@ fill: #FFF;
 }
 
 .card-desk {
-    padding: 63px 24px;
-    background-color: var(--accent-color);
+     padding: 63px 24px; 
+    background: rgba(33, 150, 243, 0.90);
     color: #FFF;
 font-size: 18px;
 font-style: normal;
@@ -665,6 +668,8 @@ letter-spacing: 0.54px;
 position: absolute;
  top: 0;
  left: 0;
+  opacity: 0; 
+ overflow: hidden;
 }
 
 .photo-title {
