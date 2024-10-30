@@ -90,6 +90,20 @@ color: var(--accent-color);
     gap: 50px;
 }
 
+.nav-link::after {
+content: "";
+display: block;
+width: 100%;
+height: 4px;
+background-color: var(--accent-color);
+border-radius: 2px;
+ opacity: 0; 
+}
+
+.header-link:hover::after {
+    opacity: 1;
+}
+
 .header-link {
     color: var(--add-text);
     font-size: 14px;
