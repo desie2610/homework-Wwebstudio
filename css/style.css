@@ -46,6 +46,7 @@ body {
     font-family: "Roboto";
 }
 
+
 .logo-color {
     color: var(--accent-color);
     font-family: "Raleway";
@@ -90,19 +91,21 @@ color: var(--accent-color);
     gap: 50px;
 }
 
-.nav-link::after {
+.nav-item {
+    position: relative;
+}
+
+.nav-link:hover::after {
 content: "";
 display: block;
 width: 100%;
 height: 4px;
-background-color: var(--accent-color);
+background: #2196F3;
 border-radius: 2px;
- opacity: 0; 
+position: absolute;
+top: 50px; 
 }
 
-.header-link:hover::after {
-    opacity: 1;
-}
 
 .header-link {
     color: var(--add-text);
@@ -662,8 +665,8 @@ fill: #FFF;
 
 .card-wrap {
     position: relative;
-    width: 100%;
-    height: 294px;
+    width: 370px;
+height: 294px;
 }
 
 .photo-img {
@@ -671,7 +674,7 @@ fill: #FFF;
 }
 
 .card-desk {
-     padding: 63px 24px; 
+     padding: 63px 28px; 
     background: rgba(33, 150, 243, 0.90);
     color: #FFF;
 font-size: 18px;
