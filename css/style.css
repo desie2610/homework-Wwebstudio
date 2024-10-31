@@ -665,8 +665,7 @@ fill: #FFF;
 
 .card-wrap {
     position: relative;
-    width: 370px;
-height: 294px;
+    width: 100%;
 }
 
 .photo-img {
@@ -674,7 +673,12 @@ height: 294px;
 }
 
 .card-desk {
-     padding: 63px 28px; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 28px;
+    padding-right: 28px;
     background: rgba(33, 150, 243, 0.90);
     color: #FFF;
 font-size: 18px;
