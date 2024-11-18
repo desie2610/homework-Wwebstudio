@@ -43,7 +43,22 @@
     border-radius: 4px;
     border: none;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    animation-name: move-btn;
+    animation-duration: 3000ms;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
+
+@keyframes move-btn {
+    0% {
+    transform: scale(1);
+    }
+    100% {
+    transform: scale(1.5);
+    }
+}
+
+
 
 .hero-btn:hover {
     background-color: var(--accent-color);
