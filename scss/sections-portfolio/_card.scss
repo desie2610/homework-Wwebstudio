@@ -1,0 +1,30 @@
+.card-wrap {
+    position: relative;
+    width: 100%;
+}
+
+
+
+.card-desk {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 28px;
+    padding-right: 28px;
+    background: rgba(33, 150, 243, 0.90);
+    color: #FFF;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; 
+letter-spacing: 0.54px;
+position: absolute;
+ top: 0;
+ left: 0;
+  opacity: 0; 
+ overflow: hidden;
+ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+ transition-duration: 250ms;
+ transform: translateY(100%);
+}
