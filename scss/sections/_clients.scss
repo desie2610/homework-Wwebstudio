@@ -1,9 +1,8 @@
 .clients {
     padding-top: 94px;
     padding-bottom: 94px;
-}
-
-.clients-title {
+    
+    &__title {
     color: #212121;
     text-align: center;
     font-size: 36px;
@@ -14,12 +13,12 @@
     margin-bottom: 50px;
 }
 
-.clients-list {
+&__list {
     display: flex;
     justify-content: space-between;
 }
 
-.clients-svg {
+&__svg {
     width: 106px;
     height: 60px;
     padding-top: 16px;
@@ -33,14 +32,22 @@
     transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1); ;
 }
 
-.clients-svg:hover {
+&:hover {
     fill: var(--accent-color);
     border: 1px solid var(--accent-color);
 }
 
-.clients-link:focus{
+&__link {
+    &:focus{
     .clients-svg{
     fill:var(--accent-color);
     border: 1px solid var(--accent-color);
 }
     }
+}
+}
+
+
+
+
+
