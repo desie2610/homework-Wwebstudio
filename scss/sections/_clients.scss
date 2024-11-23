@@ -30,18 +30,20 @@
     fill: #AFB1B8;
     transition-duration: 250ms;
     transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1); ;
+
+    &:hover {
+        fill: $accent-color;
+        border: 1px solid $accent-color;
+    }
+    
 }
 
-&:hover {
-    fill: var(--accent-color);
-    border: 1px solid var(--accent-color);
-}
 
 &__link {
     &:focus{
     .clients-svg{
-    fill:var(--accent-color);
-    border: 1px solid var(--accent-color);
+    fill:$accent-color;
+    border: 1px solid $accent-color;
 }
     }
 }

@@ -1,5 +1,5 @@
 .hero {
-    background-color: var(--background-color);
+    background-color: $background-color;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
 
     &__title {
-        color: var(--title-color);
+        color: $title-color;
         text-align: center;
         font-size: 44px;
         font-weight: 900;
@@ -25,13 +25,13 @@
     
     
     &__button {
-        color: var(--title-color);
+        color: $title-color;
         text-align: center;
         font-size: 16px;
         font-weight: 700;
         line-height: 1.87;
         letter-spacing: 0.96px;
-        background-color: var(--accent-color);
+        background-color: $accent-color;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 32px;

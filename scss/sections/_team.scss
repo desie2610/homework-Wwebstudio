@@ -1,10 +1,10 @@
 .team {
-    background-color: var(--tin-background);
+    background-color: $tin-background;
     padding-bottom: 94px;
     padding-top: 94px;
     
     &__title {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -31,12 +31,12 @@
 &__box {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: var(--title-color);
+    background-color: $title-color;
     border-radius: 0 0 4px 4px;
 }
 
 &__name {
-    color: var(--text-color);
+    color: $text-color;
     text-align: center;
     font-size: 16px;
     font-weight: 500;
@@ -45,7 +45,7 @@
 }
 
 &__text {
-    color: var(--add-text);
+    color: $add-text;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -73,11 +73,11 @@
     
 &:hover,
 &:focus {
-    border: 0px solid var(--accent-color);
-    background-color: var(--accent-color);
+    border: 0px solid $accent-color;
+    background-color: $accent-color;
 
     .team__svg {
-        fill: var(--title-color);
+        fill: $title-color;
     }
 }
 }

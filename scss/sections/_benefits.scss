@@ -12,7 +12,7 @@
     }
     
     &__title {
-        color: var(--text-color);
+        color: $text-color;
         font-size: 14px;
         font-weight: 700;
         line-height: 1.14;
@@ -22,7 +22,7 @@
     }
     
     &__text {
-        color: var(--add-text);
+        color: $add-text;
         font-size: 14px;
         font-weight: 400;
         line-height: 1.71;
