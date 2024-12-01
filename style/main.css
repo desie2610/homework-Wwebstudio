@@ -20,6 +20,11 @@ p {
   margin: 0;
 }
 
+.footer__logo, .footer__color, .header__color2, .header__color {
+  font-size: 26px;
+  font-weight: 700;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -51,16 +56,12 @@ body {
 .header__color {
   color: #2196F3;
   font-family: "Raleway";
-  font-size: 26px;
-  font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
 }
 .header__color2 {
   color: #212121;
   font-family: "Raleway";
-  font-size: 26px;
-  font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
 }
@@ -501,16 +502,12 @@ body {
 .footer__color {
   color: #2196F3;
   font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
 }
 .footer__logo {
   color: #FFF;
   font-family: Raleway;
-  font-size: 26px;
-  font-weight: 700;
   line-height: 1.38;
   letter-spacing: 0.78px;
   display: block;

@@ -15,8 +15,7 @@
   &__color {
     color: $accent-color;
     font-family: "Raleway";
-    font-size: 26px;
-    font-weight: 700;
+    @extend %font;
     line-height: 1.38;
     letter-spacing: 0.78px;
   }
@@ -24,8 +23,7 @@
   &__color2 {
     color: $text-color;
     font-family: "Raleway";
-    font-size: 26px;
-    font-weight: 700;
+    @extend %font;
     line-height: 1.38;
     letter-spacing: 0.78px;
   }
