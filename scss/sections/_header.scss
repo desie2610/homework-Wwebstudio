@@ -86,12 +86,14 @@
     gap: 10px;
 
     
+   &__svg {
+    
     &:hover,
     &:focus {
-      .header__cell {
+      .header__svg {
         color: $accent-color;
       }
-      .header__icon {
+      .header__svg {
         fill: $accent-color;
       }
     }

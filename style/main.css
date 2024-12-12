@@ -144,10 +144,10 @@ body {
           align-items: center;
   gap: 10px;
 }
-.header__link:hover .header__cell, .header__link:focus .header__cell {
+.header__link:hover .header__svg, .header__link:focus .header__svg {
   color: #2196F3;
 }
-.header__link:hover .header__icon, .header__link:focus .header__icon {
+.header__link:hover .header__svg, .header__link:focus .header__svg {
   fill: #2196F3;
 }
 .header__icon {
