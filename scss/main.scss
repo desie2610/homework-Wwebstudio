@@ -1,16 +1,15 @@
+@import "./base/body";
+@import "./base/container";
 @import "./base/reset";
 @import "./base/root";
-@import"./utils/paceholder";
-@import "./base/container";
-@import "./base/body";
 @import "./sections/header";
 @import "./sections/hero";
-@import "./sections/benefits";
+@import "./sections/advant";
 @import "./sections/work";
 @import "./sections/team";
-@import "./sections/clients";
+@import "./sections/client";
 @import "./sections/footer";
 @import "./sections/modal";
-@import "./sections-portfolio/hero-portfolio";
-@import "./sections-portfolio/card";
+@import "./sections/portfolio";
+
 

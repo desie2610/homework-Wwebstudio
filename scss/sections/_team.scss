@@ -1,113 +1,112 @@
 .team {
-    background-color: $tin-background;
-    padding-bottom: 94px;
-    padding-top: 94px;
-    
-    &__title {
-    color: $text-color;
+    padding-top: 60px;
+    padding-bottom: 60px;
     text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 1.08px;
-    margin-bottom: 50px;
-}
-
-&__list {
-    display: flex;
-    gap: 30px;
-}
-
-&__item {
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    border-radius: 0 0 4px 4px;
-}
-
-
-&__img {
-    width: 270px;
-}
-
-&__box {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-color: $title-color;
-    border-radius: 0 0 4px 4px;
-}
-
-&__name {
-    color: $text-color;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.18;
-    letter-spacing: 0.48px;
-}
-
-&__text {
-    color: $add-text;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.18;
-    letter-spacing: 0.48px;
-    margin-top: 10px;
-}
-
-&__listik {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-    gap: 10px;
-}
-
-&__link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    transition-duration: 250ms;
-    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1); ;
-    
-&:hover,
-&:focus {
-    border: 0px solid $accent-color;
-    background-color: $accent-color;
-
-    .team__svg {
-        fill: $title-color;
+    background-color: $team-background;
+    @media screen and (min-width: 1200px) {
+      padding-top: 94px;
+      padding-bottom: 94px;
     }
-}
-}
-
-&__svg {
-    width: 20px;
-    height: 20px;
-    fill: #AFB1B8;
-    transition-duration: 250ms;
-    transition-timing-function:  cubic-bezier(0.4, 0, 0.2, 1); ;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+  
+    &__title {
+      color: $text-color;
+      text-align: center;
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.16;
+      letter-spacing: 0.84px;
+      margin-bottom: 30px;
+      @media screen and (min-width:1200px) {
+        font-size: 36px;
+        letter-spacing: 1.08px;
+        margin-bottom: 50px;
+      }
+    }
+  
+    &__list {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+  
+    &__item {
+      flex-basis: 100%;
+      border-radius: 0px 0px 4px 4px;
+      box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+        @media screen and (min-width: 768px) {
+          flex-basis: calc((100% - 30px) / 2);
+        }
+        @media screen and (min-width: 1200px) {
+          flex-basis: calc((100% - 90px) / 4);
+        }
+    }
+  
+    &__img {
+      width: 100%;
+    }
+  
+    &__wrap {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  
+    &__name {
+      color: $text-color;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.18;
+      letter-spacing: 0.48px;
+      margin-bottom: 10px;
+    }
+  
+    &__taxt {
+      color: $added-text;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.18;
+      letter-spacing: 0.48px;
+      margin-bottom: 16px;
+    }
+  
+    &__items {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    &__link {
+      padding: 12px 12px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition-property: background-color;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+      &:hover,
+      &:focus {
+        border: none;
+        background-color: $accent-color;
+        outline: 0px solid $accent-color;
+  
+        .team__icon {
+          fill: $title-color;
+        }
+      }
+    }
+  
+    &__icon {
+      width: 20px;
+      height: 20px;
+      fill: #afb1b8;
+      transition-property: fill;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+  
